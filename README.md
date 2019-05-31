@@ -13,3 +13,5 @@ Next, we define our sequential neural network model.
 6. Finally, the output layer has 10 neurons for the 10 classes and a softmax activation function to output probability-like predictions for each class.
 
 The CNN is fit over 10 epochs with a batch size of 200. Running the example, the accuracy on the training and validation test is printed each epoch and at the end of the classification error rate is printed. The figure below shows a screenshot of the result. We could achieve an accuracy of 99.19%.
+
+![Training](https://github.com/csaiprashant/ocr_mnist_keras/blob/master/training.png)
